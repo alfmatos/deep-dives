@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(defuddle:*)",
+      "Bash(npx defuddle:*)",
+      "Bash(obsidian:*)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
