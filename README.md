@@ -124,7 +124,7 @@ After wiki content exists, this skill builds a structured learning course from f
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code)
 - [Obsidian](https://obsidian.md/) (for viewing vaults)
-- [defuddle](https://github.com/anthropics/defuddle) (`npm install -g defuddle`) — for web content extraction
+- [defuddle](https://github.com/kepano/defuddle) (`npm install -g defuddle`) — for web content extraction
 
 ## License
 
