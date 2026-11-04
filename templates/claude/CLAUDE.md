@@ -33,6 +33,17 @@ This is a self-contained deep-dive Obsidian vault. Run Claude Code from this dir
 - **Article templates** in `_templates/` define the structure for each article type.
 - **All paths are relative to the vault root** (the current working directory).
 
+## Running unattended
+
+When a run has no one at the keyboard, as with `claude -p "/deep-dive section people"` from a script, nobody will answer a question. This overrides the skills wherever they ask for approval:
+
+- **Where a skill asks you to approve a plan or a change,** check it against the manifest's focus and areas instead. If it covers them, carry on; if not, revise it and carry on.
+- **Never ask anything.** Where something is ambiguous, choose what best serves the manifest's focus, and note the choice in the research log.
+- **Finish the section in this run:** research, plan, every planned article, the index and the manifest.
+- **Write each article to disk as soon as it's done, and keep the manifest's article list current,** so a run that's cut short can carry on from where it stopped.
+- **Keep titles unique across the vault,** since a wikilink names an article by its title. Before adding an article, check no other section has one with that title.
+- **Treat what's already in an article as deliberate:** add to it, and leave anything you can't tell was generated.
+
 ## Vault Structure
 
 ```

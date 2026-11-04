@@ -16,7 +16,9 @@ Use when the user says: "init", "new deep dive", "create a deep dive on", "start
 
 ### Step 1: Collect Topic Info
 
-Ask the user:
+If the request already gives the topic and the focus angle, in the prompt or in a brief it points to, don't ask: use them, take the defaults for anything optional, and go on to Step 2. That lets a script create a vault with no one at the keyboard.
+
+Otherwise, ask the user:
 
 1. **Topic name** — short, lowercase, used as folder name (e.g., "bass", "chess", "cooking")
 2. **Focus angle** — one sentence describing the angle (e.g., "Learning to play bass guitar from scratch" or "Competitive chess strategy for intermediate players")
