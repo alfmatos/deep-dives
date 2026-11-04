@@ -100,7 +100,11 @@ The content generation skill works in four phases per section:
 3. **Generate** — Write articles with proper frontmatter, wikilinks, and verified URLs
 4. **Index** — Update the master index and manifest
 
-It works incrementally — run it multiple times, and it picks up where it left off via the manifest.
+It works incrementally — run it multiple times, and it picks up where it left off via the manifest. That also means it can run with no one at the keyboard, one section per run, from a script: the vault's `CLAUDE.md` has the rule for that under "Running unattended".
+
+```
+claude -p "/deep-dive section people" --permission-mode acceptEdits
+```
 
 ```
 /deep-dive              # Continue next pending section
